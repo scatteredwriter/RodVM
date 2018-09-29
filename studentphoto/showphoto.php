@@ -14,6 +14,9 @@
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     if (!empty($_GET['studentId'])) {
         $studentId = $_GET['studentId'];
+        if($studentId == 2015212856 || $studentId == 2015211726) {
+            return;
+        }
         $stu_photo = shell_exec('python3 studentinfo.py'.' student '.$studentId);
         $cet_photo = shell_exec('python3 studentinfo.py'.' cet '.$studentId);
         if($stu_photo != NULL) {

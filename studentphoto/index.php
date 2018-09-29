@@ -34,6 +34,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 echo '<div class="studentlist">';
                 for($i = 0;$i < count($list) ; $i++){
                     $student = $list[$i];
+                    if($student->xh == 2015212856 || $student->xh == 2015211726) {
+                        continue;
+                    }
                     echo '<a class="student" href="javascript:showstudent(\''.$student->xh.'\');">'.$student->xm." ".$student->nj." ".$student->xb." ".$student->xh." ".$student->zym." ".$student->yxm.'</a>';
                 }
                 echo '</div>';
