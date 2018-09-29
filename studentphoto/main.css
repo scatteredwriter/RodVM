@@ -48,3 +48,11 @@ p{
 .studentphoto,.cetphoto{
     text-align: center;
 }
+
+.title{
+    background-color: #21b181;
+}
+
+.title p{
+    color: #ffffff;
+}
