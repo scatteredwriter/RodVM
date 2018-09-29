@@ -18,13 +18,13 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         $cet_photo = shell_exec('python3 studentinfo.py'.' cet '.$studentId);
         if($stu_photo != NULL) {
             echo '<div class="studentphoto">';
-            echo '<div style="padding: 5px 0px 5px 0px;><p>证件照片</p></div>'
+            echo '<div class="title"><p>证件照片</p></div>';
             echo '<img src="'.$stu_photo.'" width="60%"/>';
             echo '</div>';
         }
         if($cet_photo != NULL) {
             echo '<div class="cetphoto">';
-            echo '<div style="padding: 5px 0px 5px 0px;><p>四六级照片</p></div>'
+            echo '<div class="title"><p>四六级照片</p></div>';
             echo '<img src="'.$cet_photo.'" width="60%"/>';
             echo '</div>';
         }
