@@ -8,7 +8,7 @@
     <title>学生照片</title>
     <script type="text/javascript">
         function showstudent(studentId) {
-            window.open("playmusic.php?studentId=" + studentId);
+            window.open("showphoto.php?studentId=" + studentId);
         }
     </script>
 </head>
