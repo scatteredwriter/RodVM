@@ -8,10 +8,6 @@ def SearchStudent(searchkey):
     url = url % searchkey
     response = requests.get(url)
     print(response.text)
-    # response = json.loads(response.text)
-    # for i in range(len(response['returnData'])):
-    #     print('第%i位：姓名：%s\t年级：%s\t性别：%s\t学号：%s\t班级：%s\t专业：%s\t学院：%s' % (
-    #         i, response['returnData'][i]['xm'], response['returnData'][i]['nj'], response['returnData'][i]['xb'], response['returnData'][i]['xh'], response['returnData'][i]['bj'], response['returnData'][i]['zym'], response['returnData'][i]['yxm']))
 
 
 def GetStudentPhoto(studentId):
