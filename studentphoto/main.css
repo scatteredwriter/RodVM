@@ -33,16 +33,6 @@ p{
     width: 100px;
 }
 
-/* #studentlist a,#downloaddiv a{
-    color: #ffffff;
-    font-size: 15px;
-}
-
-#studentlist,#downloaddiv{
-    background-color: #21b181;
-    margin-top: 15px;
-} */
-
 .studentlist .student{
     display: block;
     color: #21b181;
