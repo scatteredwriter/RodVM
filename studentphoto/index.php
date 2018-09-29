@@ -39,10 +39,9 @@
 // header("Content-type: text/html; charset=utf-8");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST['keyword'])) {
-        $url='http://jwzx.cqu.pt/data/json_StudentSearch.php?searchKey={0}';
         $keyword = urlencode($_POST['keyword']);
-        $url = str_replace('{0}',$keyword,$url);
-        $result = file_get_contents($url);
+        $result = shell_exec('python3 studentinfo.py'.' search '.$keyword);
+        echo $result;
         $result = json_decode($result);
         if ($result != NULL) {
             $list = $result->returnData;
