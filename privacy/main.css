@@ -1,0 +1,122 @@
+<!--[if It IE9;]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/color: 3px mediaqueries.js"> </script?
+<![endif]-->
+html, body, iframe, h1, h2, h3, h4, h5, h6, p, form, dl, dd, ol, ul {
+    margin: 0;
+}
+
+body {
+    line-height: 1;
+    background: #fff;
+    font-size: 100%;
+    font-family: Arial,"微软雅黑";
+    overflow-x: hidden;
+}
+/*@media only screen and (min-width:1024px)*/
+.statement, .caption {
+    width: 980px;
+    margin: 0 auto;
+}
+.caption h1 {
+    font-weight: normal;
+    color: #000000;
+    font-size: 2.25em;
+    line-height: 0.83em;
+}
+.caption h2 {
+    font-weight: normal;
+    color: #000000;
+}
+.caption hr {
+    height: 0px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin: 36px 0 40px;
+}
+.caption {
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+}
+
+.caption em {
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    /*background: #fff url(img/book.png) no-repeat center center;*/
+}
+em, i {
+    font-style: normal;
+}
+/*@media only screen and (min-width:1024px)*/
+article.statement {
+    padding: 0;
+}
+article.statement {
+    margin-bottom: 20px;
+}
+section, article, aside, header, footer, nav, dialog, figure {
+    display: block;
+}
+.statement p, .statement div {
+    margin-bottom: 30px;
+}
+.Text p, .Text div {
+    line-height: 2em;
+    font-size: 0.87em;
+    color: #000000;
+}
+
+/*@media only screen and (min-width:1024px)*/
+.wrap {
+    max-width: 960px;
+    width: 100%;
+}
+.btm {
+    margin-top: 50px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.wrap {
+    margin: 0 auto;
+}
+section, article, aside, header, footer, nav, dialog, figure {
+    display: block;
+}
+
+.btm div + div {
+    margin-top: 15px;
+}
+/*@media only screen and (min-width:1024px)*/
+.btm div {
+    margin-left: 35px;
+}
+.btm div {
+    line-height: 18px;
+}
+
+
+.links a + a {
+    padding-left: 20px;
+    border-left: 1px solid #999;
+}
+.links a {
+    color: #999;
+    font-weight: bold;
+    padding-right: 20px;
+}
+ins, a {
+    text-decoration: none;
+}
+.btm {
+    margin-top: 50px;
+    font-size: 12px;
+    padding-bottom: 20px;
+    position: relative;
+}
+

@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    margin: 5px;
+}
+
+p,label{
+    background-color: #21b181;
+    color: #ffffff;
+}
+
+.options{
+    border-style: solid;
+    border-color: #21b181;
+    border-width: 1px;
+    padding: 20px 5px 20px 5px;
+    margin-top: 150px;
+}
+
+a{
+    color: #21b181;
+}
