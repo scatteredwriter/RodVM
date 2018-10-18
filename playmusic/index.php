@@ -40,7 +40,6 @@
    </form>
 
     <?php
-// header("Content-type: text/html; charset=utf-8");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST['keyword'])) {
         $url='https://c.y.qq.com/soso/fcgi-bin/client_search_cp?new_json=1&aggr=1&cr=1&catZhida=1&p=1&n=20&w={0}&format=jsonp&inCharset=utf8&outCharset=utf-8';
