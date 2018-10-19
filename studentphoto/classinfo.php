@@ -7,9 +7,6 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
     <title>班级信息</title>
     <script type="text/javascript">
-        function showclassinfo(classId) {
-            window.open("index.php?classId=" + classId);
-        }
     </script>
 </head>
 
@@ -25,7 +22,7 @@ $output = curl_exec($ch);
 curl_close($ch);
 preg_match('/<div id="kbTabs-bj".+(?=<div id="kbTabs-kc")/s', $output, $result);
 $output = $result[0];
-$output = preg_replace('/kb_bj\.php\?bj=(\d+)/','javascript:showclassinfo($1);',$output);
+$output = preg_replace('/kb_bj\.php\?bj/','index.php?classId',$output);
 echo $output;
 ?>
 
