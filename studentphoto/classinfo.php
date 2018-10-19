@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
     <title>班级信息</title>
     <script type="text/javascript">
-        function showstudent(studentId) {
-            window.open("showphoto.php?studentId=" + studentId);
+        function showclassinfo(classId) {
+            window.open("index.php?classId=" + classId);
         }
     </script>
 </head>
